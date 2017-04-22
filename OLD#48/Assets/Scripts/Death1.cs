@@ -8,7 +8,7 @@ public class Death1 : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		if (col.gameObject.name == "Cube") 
+		if (col.gameObject.name == "CatTrigger") 
 		{
 			Debug.Log ("1");
 			SceneManager.LoadScene ("2");
@@ -21,15 +21,16 @@ public class Death1 : MonoBehaviour {
 		if (col.gameObject.name == "TrPlane") 
 		{
 			Debug.Log ("3");
-			gm1 = GameObject.Find ("ForFire");
-			Debug.Log ("gfs");
-			gm1.GetComponent<Rigidbody> ().AddForce (0, 0, -1000);
+			gm1 = GameObject.Find ("Cubeadd");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
 			//gm1.AddForce (0,0,10);
 		}
 	}
-/*	void OnCollisionEnter (Collision coll)
+	void OnCollisionEnter (Collision coll)
 	{
-		if (coll.rigidbody == true)
+		if (coll.rigidbody == true) {
 			Debug.Log ("gf");
-	}*/
+			SceneManager.LoadScene ("2");
+		}
+	}
 }
