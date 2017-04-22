@@ -1,22 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class Death : MonoBehaviour {
-
+	public GameObject cube;
 	void OnTriggerEnter(Collider col)
 	{
-		if (col.gameObject.name == "Player") 
+		if (col.gameObject.name == "Cube") 
 		{
 			Debug.Log ("1");
-			EditorSceneManager.LoadScene ("2");
+			SceneManager.LoadScene ("2");
 		}
 }
-	void OnParticleEnter (Collider col)
-	{
-		
-			Debug.Log ("1");
-			EditorSceneManager.LoadScene ("2");
-		}
-	}
+}
+

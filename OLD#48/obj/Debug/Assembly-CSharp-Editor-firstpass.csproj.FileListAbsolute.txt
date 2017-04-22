@@ -1,7 +1,6 @@
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.dll
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.pdb
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\nunit.framework.dll
-C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\UnityEditor.Advertisements.dll
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\UnityEditor.Analytics.dll
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\UnityEditor.dll
@@ -28,8 +27,6 @@ C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\ICSharpCode.NRefact
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\Unity.UNetWeaver.dll
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\Mono.Cecil.Mdb.dll
-C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll
-C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\SyntaxTree.Mono.Cecil.dll
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\Unity.CecilTools.dll
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\Mono.Cecil.Pdb.dll
 C:\Users\User\Downloads\OLD\LudumDare2\OLD#48\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
