@@ -114,6 +114,7 @@ ModelImporter:
     7400000: CMU compliant skeleton|CMU compliant skeleton|CMU compliant skeleton|CMU
       compliant ske
     9500000: //RootNode
+    11100000: //RootNode
     13700000: childMesh
     13700002: eyebrow004Mesh
     13700004: high-polyMesh
@@ -164,6 +165,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -174,9 +176,12 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -18,6 +18,10 @@ public class Death1 : MonoBehaviour {
 		{
 			Debug.Log ("Mao!");
 		}
+		if (col.gameObject.name == "KidTrigger") 
+		{
+			SceneManager.LoadScene ("2");
+		}
 		if (col.gameObject.name == "Cube1") 
 		{
 			Debug.Log ("2");
@@ -37,14 +41,34 @@ public class Death1 : MonoBehaviour {
 			gm1 = GameObject.Find("Cubeadd4");
 			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
 			gm1 = GameObject.Find("Cubeadd5");
-			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1.GetComponent<Rigidbody> ().AddForce (200, 0,0);
 			gm1 = GameObject.Find("Cubeadd6");
 			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
 			gm1 = GameObject.Find("Cubeadd7");
-			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1.GetComponent<Rigidbody> ().AddForce (0, 0,300);
 			gm1 = GameObject.Find("Cubeadd8");
-			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1.GetComponent<Rigidbody> ().AddForce (0,1000,0);
 			gm1 = GameObject.Find("Cubeadd9");
+			gm1.GetComponent<Rigidbody> ().AddForce (0,1000,0);
+			gm1 = GameObject.Find("Cubeadd10");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd11");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd12");
+			gm1.GetComponent<Rigidbody> ().AddForce (0, 0,500);
+			gm1 = GameObject.Find("Cubeadd13");
+			gm1.GetComponent<Rigidbody> ().AddForce (0, 0,500);
+			gm1 = GameObject.Find("Cubeadd14");
+			gm1.GetComponent<Rigidbody> ().AddForce (0, 800,0);
+			gm1 = GameObject.Find("Cubeadd15");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 1000,0);
+			gm1 = GameObject.Find("Cubeadd16");
+			gm1.GetComponent<Rigidbody> ().AddForce (0, 800,0);
+			gm1 = GameObject.Find("Cubeadd17");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,900);
+			gm1 = GameObject.Find("Cubeadd18");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd19");
 			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
 
 		}

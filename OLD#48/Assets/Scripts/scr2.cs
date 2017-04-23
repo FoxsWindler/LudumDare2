@@ -6,7 +6,7 @@ public class scr2 : MonoBehaviour {
 
 	// Use this for initialization
 	private GameObject gm2;
-
+	private GameObject sc;
 	// Use this for initialization
 	void Start () {		
 		gm2 = GameObject.Find ("Sfera");
