@@ -12,6 +12,11 @@ public class Death1 : MonoBehaviour {
 		{
 			Debug.Log ("1");
 			SceneManager.LoadScene ("2");
+			//SceneManager.LoadScene ("2");
+		}
+		if (col.gameObject.name == "CatTriggerMao") 
+		{
+			Debug.Log ("Mao!");
 		}
 		if (col.gameObject.name == "Cube1") 
 		{
@@ -21,9 +26,27 @@ public class Death1 : MonoBehaviour {
 		if (col.gameObject.name == "TrPlane") 
 		{
 			Debug.Log ("3");
-			gm1 = GameObject.Find ("Cubeadd");
+			gm1 = GameObject.Find("Cubeadd");
 			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
-			//gm1.AddForce (0,0,10);
+			gm1 = GameObject.Find("Cubeadd1");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd2");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd3");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd4");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd5");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd6");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd7");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd8");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+			gm1 = GameObject.Find("Cubeadd9");
+			gm1.GetComponent<Rigidbody> ().AddForce (300, 0,0);
+
 		}
 	}
 	void OnCollisionEnter (Collision coll)
